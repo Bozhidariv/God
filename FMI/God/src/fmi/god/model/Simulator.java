@@ -111,10 +111,10 @@ public class Simulator {
     public void menu() {
         System.out.println("MENU COMMANDS");
         System.out.println("create - Creating random planet");
-        System.out.println("exinct <planet name> - Extinction of planet's population");
+        System.out.println("extinct <planet name> - Extinction of planet's population");
         System.out.println("destroy <planet_name> - Destoy whole planet");
         System.out.println("stats - Statistics for planets");
-        System.out.println("add <planet name> - Add specific entity on specific planet");
+        System.out.println("add <planet name> <entitytype> <number> - Add specific entity on specific planet");
         System.out.println("exit - Quit the program");
 
         String input = "";
